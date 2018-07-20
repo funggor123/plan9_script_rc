@@ -1,4 +1,6 @@
 #!/bin/rc
 
+rfork en
+fn sigterm{}
+HOME=$home
 bind -b /tmp/go/go1.9.7/go-plan9-386-bootstrap/bin
-GOROOT=/tmp/go/1.9.7/go-plan9-386-bootstrap
